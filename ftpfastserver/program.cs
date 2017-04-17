@@ -23,7 +23,7 @@ namespace ftpFastServer
 
             try
             {
-                /*// Set the TcpListener on port 21.
+                // Set the TcpListener on port 21.
                 Int32 port = 21;
                 IPAddress localAddr = IPAddress.Parse("127.0.0.1");
                 String StartUpDirectory = "C:/WebServer/ftp";
@@ -255,9 +255,9 @@ namespace ftpFastServer
                 server.Stop();
             }
             Console.WriteLine("\nHit enter to continue...");
-            Console.Read();*/
+            Console.Read();
 
-                try
+            /*    try
                 {
                     NameValueCollection nvc = new NameValueCollection();
                     nvc.Add("action", "create");
@@ -321,7 +321,7 @@ namespace ftpFastServer
                 // Let the user know what went wrong.
                 Console.WriteLine("WebClient error ");
                 Console.WriteLine(e.Message);
-            }
+            }*/
         }
 
     }
